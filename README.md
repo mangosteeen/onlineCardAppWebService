@@ -1,22 +1,10 @@
-Routes
+# Routes
 
-GET /allcards
+## GET /allcards
+**Returns:**
+- `id`
 
-Retrieve all card records from the database.
-
-{
-  "movie_title": "Interstellar",
-  "poster_url": "https://example.com/interstellar.jpg"
-}
-
-POST /addcard
-
-Add a new card to the database.
-
-[
-  {
-    "id": 1,
-    "movie_title": "Interstellar",
-    "poster_url": "https://example.com/interstellar.jpg"
-  }
-]
+## POST /addcard
+**Parameters:**
+- `card_name`
+- `card_pic`
